@@ -2,6 +2,7 @@ import React from "react";
 import lockin from "../media/audio/lock in.mp3"
 import video1 from "../media/videos/zone 2.flp - FL Studio 21 2024-10-30 14-35-25.mp4"
 
+
 const Track1 = () => {
     return (
         <div className="track1page">
@@ -21,7 +22,7 @@ const Track1 = () => {
                
 
             </video>
-            <h4>unfortunately the audio cut out at 8:50 :( but i thought id show you a live example regardless, since a great way to learn is to watch. <br></br> 
+            <h4>unfortunately the audio cut out at 8:50, but i thought id show you a live example regardless, since a great way to learn is to watch. <br></br> 
             I can tell you the buttons and give tutorials but nothing beats a live example or doing it yourself in my opinion. 
             </h4>
                 </div>
