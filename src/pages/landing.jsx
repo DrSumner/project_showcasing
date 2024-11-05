@@ -1,21 +1,37 @@
-import React from "react";
-import Track1 from "./track1";
+import React, { useEffect, useState } from "react";
+import Tracklist from "./tracklist";
+import Home from "./home";
+import Info from "./info";
 
 const Landing = () => {
+
+    const [page, setPage] = useState('home')
+
+    useEffect(()=> {
+
+    }, [page])
+
+    const onClick = (e) => {
+        setPage(e.target.name)
+    }
+
     return (
         <div className="landingpage">
             <div className="options">
-                <h2 className="option">
+                <button className="button" name='home' onClick={onClick} >
                 Home
-                </h2>
-                <h2 className="option">
+                </button>
+                <button className="button" name='tracks' onClick={onClick} >
                 Tracks
-                </h2>
-                <h2 className="option">
+                </button>
+                <button className="button" name='info' onClick={onClick} >
                 Info
-                </h2>
+                </button>
             </div>
-           <Track1/>
+            {page === 'home' && <Home/>}
+            {page === 'tracks' && <Tracklist/>}
+            {page === 'info' && <Info/>}
+           
 
         </div>
 
