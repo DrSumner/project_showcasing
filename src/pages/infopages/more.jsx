@@ -1,13 +1,13 @@
 import React from "react";
 
 
-const Eq = (props) => {
+const More = (props) => {
     const {info} = props
 
     return (
         <div className="qpage">
             <h1>
-            Heres a list of random helpful links & or tips.
+            Heres a list of music ive worked on is the past.
             </h1>
             <ul>
                 <li> <a href="https://hyperbits.com/eq-cheat-sheet/">Eq cheet sheet</a>  </li>
@@ -20,4 +20,4 @@ const Eq = (props) => {
     );
 };
 
-export default Eq;
+export default More;

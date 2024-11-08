@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Compression from "./infopages/compression";
-import Eq from "./infopages/eq";
+import Contact from "./infopages/contact";
+import More from "./infopages/more";
 
 
 const Info = () => {
@@ -8,13 +8,13 @@ const Info = () => {
     const pages = [
         {
             id:0,
-            name:"compression",
+            name:"contact",
             img: null,
             description: ''
         },
         {
             id:1,
-            name:"eq",
+            name:"more music",
             img: null,
             description: ''
         }
@@ -41,8 +41,8 @@ const Info = () => {
                     </option>
                 ))}
             </select>
-            {info.name === 'compression' && <Compression info={info} />}
-            {info.name === 'eq' && <Eq info={info} />}
+            {info.name === 'contact' && <Contact info={info} />}
+            {info.name === 'more music' && <More info={info} />}
         </div>
     );
 };
