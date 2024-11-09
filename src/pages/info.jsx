@@ -20,7 +20,7 @@ const Info = () => {
         }
     ]
 
-    const [info, setInfo] = useState(pages[0])
+    const [info, setInfo] = useState(pages[1])
 
 
     const selectPage = (e) =>{

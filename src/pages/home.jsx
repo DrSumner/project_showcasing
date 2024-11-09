@@ -14,7 +14,7 @@ const Home = () => {
                 click "Tracks" to hear some tracks and watch a video of me creating it.
             </h2>
             <h2>
-                Or click "Info" to get some really great info like how EQ works or Compression!
+                Or click "Info" to here more music I've worked on and my socials.
             </h2>
         </div>
 

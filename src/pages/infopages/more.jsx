@@ -7,13 +7,64 @@ const More = (props) => {
     return (
         <div className="qpage">
             <h1>
-            Heres a list of music ive worked on is the past.
+            Heres a list of over 100 songs ive worked on is the past.
             </h1>
+            <h3 
+            style={{color:'red'}}
+            >**Warning not every song is clean**</h3>
             <ul>
-                <li> <a href="https://hyperbits.com/eq-cheat-sheet/">Eq cheet sheet</a>  </li>
-                <li> cut more than you boost, boosting can add many unwanted artifacts so be sure to stay consious when boosting.</li>
-                <li> Cut narrow and boost wide, this ideology can help you better narrow down unwanted freqs <br></br> without removing the good stuff.  </li>
-                <li>pt2 ^ boosting wide will help prevent adding weird artifacts when boosting. boosting sharp can cause werid freqs to be to dominant.</li>
+                
+                <li>
+                <iframe 
+                title="Songs Touched by Tre"
+                allow="autoplay *; encrypted-media *;" frameborder="0" height="450" 
+                style={{ width: "100%", maxWidth: "660px", overflow: "hidden", background: "transparent" }} 
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                src="https://embed.music.apple.com/us/playlist/3-songs-touched-by-tr%C3%A9/pl.u-oZyleeaCRMPyN2P"></iframe>
+                </li>
+
+                {/* <li>
+                <iframe 
+                title="Need Myself - $oL"
+                allow="autoplay *; encrypted-media *;" frameborder="0" height="150" 
+                style={{ width: "100%", maxWidth: "660px", overflow: "hidden", background: "transparent" }} 
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                src="https://embed.music.apple.com/us/album/need-myself/1601205213?i=1601205551">
+                </iframe>
+                </li>
+
+                <li>
+                <iframe 
+                title="Again - YBK"
+                allow="autoplay *; encrypted-media *;" frameborder="0" height="150" 
+                style={{ width: "100%", maxWidth: "660px", overflow: "hidden", background: "transparent" }} 
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                src="https://embed.music.apple.com/us/album/again/1580432272?i=1580432277">
+                </iframe>
+                </li>
+
+                <li>
+                <iframe 
+                title="Over Again - IsthatAvo"
+                allow="autoplay *; encrypted-media *;" 
+                frameborder="0" height="150" 
+                style={{ width: "100%", maxWidth: "660px", overflow: "hidden", background: "transparent" }} 
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                src="https://embed.music.apple.com/us/album/over-again/1535774552?i=1535774553">
+                </iframe>
+                </li>
+
+                <li>
+                <iframe 
+                title="The Resistance - Drake"
+                allow="autoplay *; encrypted-media *;" 
+                frameborder="0" 
+                height="150" 
+                style={{ width: "100%", maxWidth: "660px", overflow: "hidden", background: "transparent" }}
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                src="https://embed.music.apple.com/us/album/the-resistance/1440762388?i=1440762512">
+                </iframe>
+                </li> */}
             </ul>
         </div>
 
