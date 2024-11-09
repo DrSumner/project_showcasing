@@ -2,8 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 
-const Contact = (props) => {
-    const {info} = props
+const Contact = () => {
   
     return (
       <div>

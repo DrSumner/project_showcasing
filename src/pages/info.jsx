@@ -41,8 +41,8 @@ const Info = () => {
                     </option>
                 ))}
             </select>
-            {info.name === 'contact' && <Contact info={info} />}
-            {info.name === 'more music' && <More info={info} />}
+            {info.name === 'contact' && <Contact />}
+            {info.name === 'more music' && <More />}
         </div>
     );
 };

@@ -1,9 +1,7 @@
 import React from "react";
 
 
-const More = (props) => {
-    const {info} = props
-
+const More = () => {
     return (
         <div className="qpage">
             <h1>
