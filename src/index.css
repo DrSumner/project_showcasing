@@ -6,6 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #121212;
+  background-image: url('https://i.pinimg.com/originals/b5/fd/3f/b5fd3fbe984103e08b9482471484394b.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-blend-mode: ; */
+  height: 100vh;
 }
 
 code {
