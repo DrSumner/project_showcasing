@@ -8,19 +8,19 @@ const Info = () => {
     const pages = [
         {
             id:0,
-            name:"contact",
+            name:"more music",
             img: null,
             description: ''
         },
         {
             id:1,
-            name:"more music",
+            name:"contact",
             img: null,
             description: ''
         }
     ]
 
-    const [info, setInfo] = useState(pages[1])
+    const [info, setInfo] = useState(pages[0])
 
 
     const selectPage = (e) =>{
