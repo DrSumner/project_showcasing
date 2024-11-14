@@ -5,7 +5,7 @@ const More = () => {
     return (
         <div className="qpage">
             <h1>
-            Heres a list of over 100 songs ive worked on is the past.
+            Heres a list of over 100 songs ive worked on in the past.
             </h1>
             <h3 
             style={{color:'red'}}
