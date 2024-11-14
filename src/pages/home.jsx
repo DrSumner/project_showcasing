@@ -24,6 +24,10 @@ const Home = () => {
             <source src={calypso}/>
             Your browser does not support the audio element
             </audio> </div>
+            <div> Here are some demo projects you can download, I made them with all stock FL Studio plugins, so you can check it out!
+            <a href="/projects/demos.rar" download>Download Demo Projects</a>
+
+            </div>
         </div>
 
     );

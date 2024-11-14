@@ -22,7 +22,7 @@ const Landing = () => {
                 Home
                 </button>
                 <button className="button" name='tracks' onClick={onClick} >
-                Tracks
+                Videos
                 </button>
                 <button className="button" name='info' onClick={onClick} >
                 Info
