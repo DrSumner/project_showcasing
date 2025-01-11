@@ -5,7 +5,7 @@ import Info from "./info";
 
 const Landing = () => {
 
-    const [page, setPage] = useState('home')
+    const [page, setPage] = useState('info')
 
     useEffect(()=> {
 
