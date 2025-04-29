@@ -28,6 +28,9 @@ const Home = () => {
             <a href="/projects/demos.rar" download>Download Demo Projects</a>
 
             </div> */}
+            <div>
+                Here is a link to sync agencies you can look into. <a href="/projects/Sync_Agent_List.pdf" > download</a>
+            </div>
         </div>
 
     );
